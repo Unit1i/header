@@ -1,0 +1,113 @@
+*{
+    margin: 0; padding: 0;
+    border: none; outline:  none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bgc{
+    background-color: rgb(141, 191, 248);
+}
+.logo{
+    width: 90px;
+    height: 85px;
+    cursor: pointer;
+}
+
+.top{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background:  rgb(255, 140, 140);
+   background: radial-gradient(circle,);
+   z-index: 1000;
+   letter-spacing: 4px;
+   padding: 1%; 
+
+
+
+}
+
+.halb {
+    color:  red;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.link:hover{
+font-size: 25px;
+color: aqua;
+
+}
+.halb:hover{
+font-size: 25px;
+color: aqua;
+}
+
+
+.section{
+    margin: 4% 0 0 0;
+
+}
+
+.slider{
+ width: 100%;
+ height: 100vh;
+ background-image: url("./img/c6e340d3c0662d0acf5017a4374d00c0c7af3c5c.jpeg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ overflow: hidden;
+ animation: img 35s infinite linear;
+}
+
+@keyframes img {
+    0%{
+        background-image: url("./img/c6e340d3c0662d0acf5017a4374d00c0c7af3c5c.jpeg");
+    }
+    25%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2Q_nspF27IMzT9symOmBhi4P51KM3qXdpRab7fEAhxrts1X8s9GcFp1cJsVUJUlVz2U&usqp=CAU");
+    }
+    50%{    
+        background-image: url("https://jolstatic.fr/www/captures/1965/0/125280.jpg");
+    }
+    75%{
+        background-image: url("./img/header-faye.jpg");
+    }
+
+}
+.a1{
+
+    text-align: center;
+}
+.albionnn{
+    font-size: 20px;
+    display: flex;
+}
+.development{
+    text-align: center;
+    
+}
+.development1{
+    text-align: center;
+    
+}
+.development2{
+    font-size: 20px;
+}
+.about a {
+font-size: 17px;
+
+}
+.gameplay{
+font-size: 20px;
+display: flex;
+
+}
+.cdiv{
+    display: flex;
+
+}
